@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#3a0049">
+  <title>拼车详情</title>
+  <link rel="stylesheet" href="./detail.css?v=3">
+  <link rel="stylesheet" href="./detail-fonts.css">
+</head>
+<body>
+  <main class="detail-page">
+    <button class="back-button" id="backBtn" type="button" aria-label="返回拼车广场">←</button>
+    <section class="info-block block">
+      <div class="game-cover" id="gameCover" aria-hidden="true"><strong id="coverName">险恶迷航</strong><span id="coverSymbol">⛵</span></div>
+      <div class="game-info">
+        <p><span>桌游名称：</span><strong id="gameName">险恶迷航</strong></p>
+        <p><span>桌游类型：</span><strong id="gameType">推理 / 阵营 / 社交</strong></p>
+        <p><span>当前人数：</span><strong id="players">4/7</strong></p>
+        <p><span>本局状态：</span><strong id="status">招募中</strong></p>
+      </div>
+    </section>
+
+    <section class="schedule-block block">
+      <h2>时间</h2>
+      <div class="time-panel"><strong id="date">2026.9.16</strong><i></i><strong id="time">13:00–14:00</strong></div>
+      <h2>地点</h2>
+      <div class="place-panel" id="place">K5栋综合楼桌游室</div>
+    </section>
+
+    <section class="intro-block block">
+      <div class="intro-inner">
+        <h2>队伍简介</h2>
+        <p id="intro">本局适合新手，节奏轻松开心。适合推理阵营的同学，局主会提前讲解游戏规则，努力引导，希望大家准时参加、文明游戏。</p>
+      </div>
+    </section>
+
+    <button class="apply-button" id="applyBtn" type="button">申请上车</button>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="./store.js?v=7"></script>
+  <script src="./catalog.js?v=1"></script>
+  <script src="./detail.js?v=6"></script>
+</body>
+</html>

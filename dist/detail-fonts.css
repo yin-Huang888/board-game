@@ -1,0 +1,7 @@
+@font-face{font-family:PlayRound;src:url('./assets/FZYTK.TTF') format('truetype');font-display:swap}
+@font-face{font-family:PlayChunk;src:url('./assets/STHUPO.TTF') format('truetype');font-display:swap}
+body{font-family:PlayRound,"Microsoft YaHei",sans-serif}
+.schedule-block h2,.intro-inner h2,.apply-button{font-family:PlayChunk,PlayRound,"Microsoft YaHei",sans-serif}
+.success-shade{position:fixed;inset:0;z-index:20;background:rgba(0,0,0,.5);backdrop-filter:blur(1px)}
+.success-pop{position:fixed;z-index:21;left:50%;top:50%;transform:translate(-50%,-50%);width:min(78vw,320px);padding:18px;border-radius:22px;background:rgba(38,24,42,.94);color:white;text-align:center;box-shadow:0 20px 50px rgba(0,0,0,.35)}
+.success-pop strong{font-family:PlayChunk,PlayRound,sans-serif;font-size:1.45rem}.success-car{font-size:2rem;margin:14px 0}.success-car span{display:block;font-size:4rem}.success-pop button{border:0;border-radius:12px;background:#fff;color:#3a0049;padding:11px 18px;font-family:PlayChunk,PlayRound,sans-serif;font-size:1rem;cursor:pointer}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 380" role="img" aria-label="UNO 桌游封面">
+  <defs>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff642c"/><stop offset=".55" stop-color="#df171e"/><stop offset="1" stop-color="#8d0d22"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff782"/><stop offset="1" stop-color="#ffbc20"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#310010" flood-opacity=".5"/></filter>
+  </defs>
+  <rect x="4" y="4" width="292" height="372" rx="28" fill="url(#red)" stroke="#fff8e8" stroke-width="8"/>
+  <path d="M-20 265C89 194 179 164 318 80" fill="none" stroke="url(#gold)" stroke-width="57" opacity=".94"/>
+  <path d="M-26 289C80 220 194 175 327 102" fill="none" stroke="#fdf4d4" stroke-width="12" opacity=".75"/>
+  <g transform="rotate(-18 150 185)" filter="url(#shadow)">
+    <ellipse cx="150" cy="185" rx="135" ry="78" fill="#130e19" stroke="url(#gold)" stroke-width="9"/>
+    <text x="150" y="217" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="116" letter-spacing="-12" fill="#fbed61" stroke="#faf5df" stroke-width="3" paint-order="stroke">UNO</text>
+  </g>
+  <g transform="translate(38 292) rotate(-15)"><rect width="51" height="72" rx="8" fill="#fffaf0"/><rect x="5" y="5" width="41" height="62" rx="5" fill="#2c7ac7"/><text x="25" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="37" font-weight="900" fill="white">4</text></g>
+  <g transform="translate(92 287) rotate(3)"><rect width="51" height="72" rx="8" fill="#fffaf0"/><rect x="5" y="5" width="41" height="62" rx="5" fill="#42aa59"/><text x="25" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="37" font-weight="900" fill="white">7</text></g>
+  <g transform="translate(150 291) rotate(15)"><rect width="51" height="72" rx="8" fill="#fffaf0"/><rect x="5" y="5" width="41" height="62" rx="5" fill="#e8342f"/><text x="25" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="37" font-weight="900" fill="white">2</text></g>
+  <g transform="translate(207 298) rotate(26)"><rect width="51" height="72" rx="8" fill="#fffaf0"/><rect x="5" y="5" width="41" height="62" rx="5" fill="#eab929"/><text x="25" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="37" font-weight="900" fill="white">8</text></g>
+</svg>
