@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#3a0049">
+  <title>搜索桌游</title>
+  <link rel="stylesheet" href="./search.css?v=4">
+  <link rel="stylesheet" href="./catalog-ui.css?v=2">
+</head>
+<body>
+  <main class="search-screen catalog-page">
+    <form class="search-bar" id="searchForm" role="search">
+      <span class="magnifier" aria-hidden="true"></span>
+      <input id="searchInput" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" placeholder="搜索喜欢的桌游" aria-label="搜索桌游">
+      <button class="clear-search" id="clearSearch" type="button" aria-label="清空搜索" hidden>×</button>
+      <button class="search-btn" id="searchBtn" type="submit">搜索</button>
+    </form>
+    <div class="catalog-intro"><strong>挑一款喜欢的桌游</strong><span>搜索名称、英文名或玩法类型</span></div>
+    <p class="result-count" id="resultCount" aria-live="polite"></p>
+    <section class="game-grid" id="gameGrid" aria-label="桌游搜索结果" aria-live="polite"></section>
+    <p class="empty" id="emptyMessage" hidden>没有找到相关桌游，换个名字试试</p>
+    <button class="create-btn" id="bottomAction" type="button">发起拼车</button>
+  </main>
+  <script src="./catalog.js?v=1"></script>
+  <script src="./search.js?v=4"></script>
+</body>
+</html>
